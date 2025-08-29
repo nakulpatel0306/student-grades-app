@@ -30,7 +30,7 @@ This **Student Marking Application** is a powerful **Excel VBA-based tool** desi
 
 ### 2️⃣ Connect to Database
 - Click **"Browse"** to locate your student database file.
-- Select the provided **`Registrat.mdb`** file or another compatible database.
+- Select the provided **`Registrar.mdb`** file or another compatible database.
 - Click **"Run"** – A success message confirms a valid connection.
 
 ### 3️⃣ Application Features
