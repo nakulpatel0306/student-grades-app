@@ -1,4 +1,4 @@
-# 📘 Automated Student Database & Marking System (VBA)
+# 📘 Automated Student Database & Marking System
 
 ## 🎯 Overview
 This **Student Marking Application** is a powerful **Excel VBA-based tool** designed to streamline student database management, perform statistical calculations, and generate detailed reports. Developed as part of a **200-level Data Automation project** at **Wilfrid Laurier University**, this application integrates **Excel VBA and Microsoft Access** to enhance efficiency in student grading and analytics.
@@ -6,7 +6,7 @@ This **Student Marking Application** is a powerful **Excel VBA-based tool** desi
 ---
 
 ## 🚀 Features
-✅ **Automated Student Database Handling** – Seamlessly connect to an external database via a user-friendly interface.  
+✅ **Automated Database Handling** – Seamlessly connect to an external database via a user-friendly interface.  
 ✅ **Statistical Analysis** – Compute **course averages** and **standard deviations** with a single click.  
 ✅ **Student Search Functionality** – Instantly retrieve student details using their **Student ID**.  
 ✅ **Dynamic Report Generation** – Create **course-specific** and **student-specific reports** in **Microsoft Word**.  
