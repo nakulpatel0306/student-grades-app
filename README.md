@@ -1,44 +1,44 @@
-# 📘 Automated Student Database & Marking System
+# Student Grades App - Excel VBA Marking System
 
-## 🎯 Overview
-This **Student Marking Application** is a powerful **Excel VBA-based tool** designed to streamline student database management, perform statistical calculations, and generate detailed reports. Developed as part of a **200-level Data Automation project** at **Wilfrid Laurier University**, this application integrates **Excel VBA and Microsoft Access** to enhance efficiency in student grading and analytics.
+An Excel VBA tool that connects to a Microsoft Access student database, calculates course statistics, and generates reports in Word.
 
----
+## At a Glance
 
-## 🚀 Features
-✅ **Automated Database Handling** – Seamlessly connect to an external database via a user-friendly interface.  
-✅ **Statistical Analysis** – Compute **course averages** and **standard deviations** with a single click.  
-✅ **Student Search Functionality** – Instantly retrieve student details using their **Student ID**.  
-✅ **Dynamic Report Generation** – Create **course-specific** and **student-specific reports** in **Microsoft Word**.  
-✅ **Error Handling & Validation** – Ensures smooth operation by catching invalid inputs and file selection errors.
+- **Stack:** Excel VBA, Microsoft Access, SQL, Word automation
+- **Context:** 200-level data automation course, Wilfrid Laurier University
+- **State:** Complete
+- **Requires:** Windows with Microsoft Excel, Access and Word
 
----
+## Features
 
-## 🛠 Technologies & Skills Highlighted
-💻 **Excel VBA** – Automated workflows, advanced scripting, and database integration.  
-📊 **Microsoft Access & SQL** – Efficient data retrieval and structured database management.  
-📑 **Microsoft Word Automation** – Programmatic generation of professional reports.  
-🛠 **Data Processing & Analytics** – Statistical analysis for course and student performance.  
-📌 **Problem-Solving & Optimization** – Error handling, user-friendly UI, and automation strategies.
+- Connects to any compatible Access database through a file picker
+- Lists courses and calculates course averages and standard deviations
+- Looks up students by Student ID
+- Generates course and student reports as Word documents
+- Validates inputs and catches missing or wrong file types
 
----
+## Project Structure
 
-## 📥 Installation & Usage
-### 1️⃣ Open the Application
-- Navigate to the **`Student Grades App`** folder.
-- Open **`pate1079_a05.xlsm`** (Macro-Enabled Worksheet).
+```
+Student Grades App/
+├── pate1079_a05.xlsm               # Macro-enabled workbook (the app)
+├── Registrar.mdb                   # Sample Access database
+├── student-grades-app-overview.pdf # Project write-up
+└── macro code files/               # Exported VBA forms and modules
+    ├── main selection form.frm
+    ├── enrollment form.frm
+    ├── generate report form.frm
+    └── module one/two/three.bas
+```
 
-### 2️⃣ Connect to Database
-- Click **"Browse"** to locate your student database file.
-- Select the provided **`Registrar.mdb`** file or another compatible database.
-- Click **"Run"** – A success message confirms a valid connection.
+## Running Locally
 
-### 3️⃣ Application Features
-📌 **View Course List** – Displays available courses at Wilfrid Laurier University.  
-📌 **Calculate Statistics** – Generates **course averages & standard deviations**.  
-📌 **Student List & Search** – Retrieve student records based on **Student ID**.  
-📌 **Generate Reports** – Export **course-based** or **student-specific** Word reports.  
+1. Clone the repo, or download it as a ZIP:
+   ```bash
+   git clone https://github.com/nakulpatel0306/student-grades-app.git
+   ```
+2. Open `Student Grades App/pate1079_a05.xlsm` in Excel and enable macros.
+3. Click **Browse**, pick `Registrar.mdb`, then click **Run**. A message confirms the connection.
+4. Use the main form to view courses, calculate stats, search students or generate reports.
 
-### 4️⃣ Troubleshooting
-⚠ **No File Selected?** Ensure a file is selected before clicking **Run**.  
-⚠ **Wrong File Type?** Use only supported database formats.  
+If Run does nothing, check that a file was selected and that it is an Access database.
