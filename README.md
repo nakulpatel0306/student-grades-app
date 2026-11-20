@@ -47,3 +47,7 @@ Student Grades App/
 5. Pick a course (and an assessment, for reports) and click **Generate Report** or **Continue**.
 
 Reports land on the `Histogram` and `Data` sheets and in a new Word document. Class lists land on a new sheet named after the course.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
